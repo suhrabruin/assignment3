@@ -1,0 +1,175 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.main-wrapper{
+  background-color: #B6C7CA;
+  min-height: 800px;
+}
+
+.content-wrapper{
+  padding: 30px;
+}
+
+h1{
+  font-size: 26px;
+}
+h2{
+  font-size: 24px;
+}
+
+p{
+  font-size: 20px;
+}
+.header-menu{
+  height: 50px;
+  padding: 10px 20px;
+  background-color: #aaa;
+}
+.header-menu ul{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.header-menu ul li{
+  padding: 10px 20px;
+  list-style: none;
+}
+
+.header-menu ul li:hover{
+  background-color: #bbb;
+}
+
+.header-menu ul li a{
+  text-decoration: none;
+  font-size: 22px;
+  color:#f4f4f4;
+}
+
+.btn-contact{
+  margin-left: auto;
+}
+
+#about-me{
+  width: 70%;
+  margin: auto;
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+  background-color: #eef;
+}
+#about-me div{
+  padding: 0px 10px;
+}
+
+#about-me .content{
+  line-height: 2em;
+  font-size: 20px;
+}
+
+#about-me .image{
+}
+
+.tabs{
+  width: 80%;
+  min-height: 500px;
+  background: #eef;
+  border-radius: 25px;
+  border: 2px solid #eef;
+  margin: auto;
+}
+.tab-header{
+  width: 100%;
+  height: 10%;
+  border-radius: 25px 25px 0 0;
+  border: 2px solid #fff;
+  background: #eee;
+}
+.tab-header ul{
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+
+  cursor: pointer;
+}
+
+.tab-header ul li{
+  list-style: none;
+  font-size: 22px;
+  font-weight: bold;
+  color:black;
+  margin: auto;
+  padding: 5px 10px;
+}
+
+.tab-body{
+  width: 100%;
+  height: 90%;
+
+
+}
+
+.tab-body .tab-content{
+  height: 100%;
+  margin:10px;
+  padding:35px;
+  display: none;
+  line-height: 1.5em;
+}
+
+.tab-header .is-active{
+  background-color: #efffff;
+}
+.tab-content.is-active{
+  display: block;
+}
+
+.tab-body .tab-content .posts{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
+.posts .post{
+  border: 2px solid #aaa;
+  padding: 10px;
+  margin: 5px;
+  flex:1;
+  flex-wrap: wrap;
+}
+
+.post > h2{
+  padding-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+.footer{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top:20px;
+  border-top: 2px solid grey;
+}
+
+.footer div{
+  flex:1;
+  padding: 20px;
+}
+.footer .useful-links ul li{
+  list-style: none;
+  text-decoration: none;
+  font-style: oblique;
+  font-size: 20px;
+  line-height: 2em;
+
+}
